@@ -57,16 +57,20 @@ public class ReferenceParser {
 	}
 	
 	public String getImage() {
-		return ini.get("header", "image");
+		String image = ini.get("header", "image"); 
+		Path imagePath = Paths.get(path.getParent().toString(), image);
+		return imagePath.toString();
 	}
 	
 	public boolean imageExists() {
 		
-		Path imagePath = Paths.get(path.getParent().toString(), getImage());
-		File imageFile = imagePath.toFile();
+		//Path imagePath = Paths.get(path.getParent().toString(), getImage());
+		//File imageFile = imagePath.toFile();
+		File imageFile = new File(getImage());
 		
-		if (imageFile.exists())
+		if (imageFile.exists()) {
 			return true;
+		}
 		
 		return false;
 	}
