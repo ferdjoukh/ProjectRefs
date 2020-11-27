@@ -58,6 +58,9 @@ public class ReferenceParser {
 	
 	public String getImage() {
 		String image = ini.get("header", "image"); 
+		if (image == null)
+			return null;
+		
 		Path imagePath = Paths.get(path.getParent().toString(), image);
 		return imagePath.toString();
 	}
