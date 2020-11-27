@@ -75,7 +75,7 @@
           <configuration>
 					<archive>
 						<manifest>
-							<mainClass>oproejectRefs.proejectRefs.App</mainClass>
+							<mainClass>proejectRefs.proejectRefs.App</mainClass>
 						</manifest>
 					</archive>
 			</configuration>
