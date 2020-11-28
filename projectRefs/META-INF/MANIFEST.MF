@@ -3,4 +3,4 @@ Bundle-ManifestVersion: 2
 Bundle-Name: projectRefs
 Bundle-SymbolicName: projectRefs
 Bundle-Version: 1.0.0.qualifier
-Export-Package: proejectRefs.proejectRefs
+Export-Package: projectRefs.projectRefs
