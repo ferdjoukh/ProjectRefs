@@ -1,3 +1,5 @@
+![Java CI with Maven](https://github.com/ferdjoukh/ProjectRefs/workflows/Java%20CI%20with%20Maven/badge.svg)
+
 # ProjectRefs
 
 is a small java tool for generating **project References** in **PowerPoint** format.
