@@ -14,6 +14,7 @@ else
 fi
 
 cp -r resources2 $exeFolder/resources
+cp ../README.* $exeFolder
 
 echo "[INFO] Adding some examples"
 

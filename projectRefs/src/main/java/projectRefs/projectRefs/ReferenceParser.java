@@ -103,7 +103,7 @@ public class ReferenceParser {
 		String context = ini.get(name, "list");
 		
 		if (context == null) {
-			System.out.println("Missing Section named [ " + name + " ] !!");
+			//System.out.println("Missing Section named [ " + name + " ] !!");
 			return null;
 		}
 		return context.split(";");	

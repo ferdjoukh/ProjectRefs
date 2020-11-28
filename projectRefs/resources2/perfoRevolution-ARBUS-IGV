@@ -1,15 +1,15 @@
 [header]
 
 title=PerfoRevolution : A Workbench for Performance Studies
-language=english
-author=Alice Bob
+image=images/image1.jpg
 client=Airbus
+
+author=Alice Bob
 team=Digital Engineering
+language=english
 manager=Bob Alice
 duration=2 years
 people=4 people
-image=images/image1.jpg
-
 
 [context]
 
